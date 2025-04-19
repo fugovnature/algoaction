@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Акция: 100 дней до победы</title>
+  <link rel="icon" href="logo.png" type="image/png" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #ffffff;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(120deg, #00aaff, #0077cc);
+      color: white;
+      padding: 3rem 1rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #0077cc;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .gallery img {
+      flex: 1 1 calc(33% - 1rem);
+      max-width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    @media (max-width: 768px) {
+      .gallery img {
+        flex: 1 1 100%;
+      }
+    }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .brochure img {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    .feedback-form {
+      background: #f9f9f9;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+    }
+    .feedback-form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    .feedback-form select,
+    .feedback-form textarea,
+    .feedback-form button {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+    }
+    .feedback-form button {
+      background: #0077cc;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .feedback-form button:hover {
+      background: #005fa3;
+    }
+    footer {
+      background: #f0f0f0;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>100 дней до победы</h1>
+    <p>Республиканская акция</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Информационная брошюра</h2>
+      <div class="brochure">
+        <img src="06e2a202-28a3-4568-b912-2f3b66508afd.jpg" alt="Брошюра акции">
+      </div>
+    </section>
+    <section>
+      <h2>Что это за акция?</h2>
+      <p>
+        Общественный фонд «АЛГОРИТ-МIX» совместно с Департаментом исправительной системы организует акцию, приуроченную к празднованию Дня Победы. В рамках акции будет проведён конкурс плакатов под названием «Память поколений. Годы сквозь сердца», направленный на сохранение исторической памяти, уважение к подвигу ветеранов и воспитание патриотизма.
+      </p>
+      <p>
+        Акция проводится среди осуждённых, отбывающих наказание в учреждениях уголовно-исполнительной системы. Участие в конкурсе плакатов «Память поколений. Годы сквозь сердца» позволит им выразить своё отношение к исторической памяти, отдать дань уважения подвигу ветеранов и через творчество осмыслить важность патриотизма и духовных ценностей. Кроме того, акция способствует развитию художественных навыков, самовыражению и социальной адаптации, создавая возможности для позитивных изменений в их мировоззрении и поведении.
+      </p>
+    </section>
+    <section>
+      <h2>Видео-презентация</h2>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/w2P6LcetMwY?si=3cDOhfJWNCy2ERzF" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section>
+      <h2>Фотографии</h2>
+      <div class="gallery">
+        <img src="5b4d6fad-cda8-4d32-a9a7-2283447cfbe5.jpg" alt="Фото 1">
+        <img src="deaccda8-a428-4ba1-bd3b-a0c09cafde3a.jpg" alt="Фото 2">
+        <img src="55383682-539b-4081-88a1-74be4eae0dbd (1).jpg" alt="Фото 3">
+        <img src="4bfa92f5-5447-440a-8339-223cfc01a7b1.jpg" alt="Фото 4">
+      </div>
+    </section>
+
+    <section>
+      <h2>Оцените акцию</h2>
+      <p>Нам важно ваше мнение! Пожалуйста, оставьте отзыв:</p>
+      <div class="form-wrapper" style="max-width: 100%; margin: auto;">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFpmHt9ZfNLifVkxKqdTHFGvfdY7zRQyGLQ6yBBTgULHfNTw/viewform?embedded=true" width="100%" height="650" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+      </div>
+    </section>
+    
+    
+  </main>
+
+  <footer>
+    &copy; 2025 Акция «100 дней до победы». Все права защищены.
+  </footer>
+</body>
+</html>
